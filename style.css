@@ -24,15 +24,17 @@ footer{
 header{
     background-color: rgb(255, 0, 0);
     position: relative;
-    height: 300px;
+    height: 150px;
 }
 aside{
     background-color: rgb(45, 252, 3);
     position: relative;
-    height: 400px;
+    height: 600px;
 }
 main{
     background-color: gray;
+    position: relative;
+    height: auto;
 }
 footer{
     background-color: blue;
