@@ -37,3 +37,38 @@ footer{
     grid-area: roda;
     background-color: rgb(128, 128, 226);
 }
+
+.elementomae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: white
+}
+
+.card a{
+    border-radius: 30px;
+    background-color: cornflowerblue;
+    display: block;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: 100ms;
+}
+
+card a:hover{
+    background-color: black;
+    color: black;
+}
